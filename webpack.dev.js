@@ -5,7 +5,7 @@ const webpack = require('webpack');
 module.exports = merge(common, {
     devtool: 'inline-source-map',
     devServer: {
-        port: 8088,
+        port: 4399,
         contentBase: path.resolve(__dirname, 'dist/'),
         historyApiFallback: true,
         hot: true
